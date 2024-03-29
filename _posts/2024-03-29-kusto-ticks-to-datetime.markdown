@@ -1,11 +1,11 @@
 ---
 layout: post
 title:  "Kusto Ticks to datetime"
-date:   2024-03-23 23:00:08 -0500
+date:   2024-03-29 07:30:08 -0500
 categories: kusto
 ---
 
-Sometimes, timestamp for a kusto ([ADX](https://learn.microsoft.com/en-us/azure/data-explorer/)) log gets emitted in C# ticks format. Here is a small kusto function to convert ticks into Kusto datetime:
+Sometimes, timestamp for a kusto ([ADX](https://learn.microsoft.com/en-us/azure/data-explorer/)) log gets emitted in [C# ticks](https://learn.microsoft.com/en-us/dotnet/api/system.datetime.ticks) format. Here is a small kusto function to convert ticks into Kusto datetime:
 
 ### Example
 
